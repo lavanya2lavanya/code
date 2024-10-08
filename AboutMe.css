@@ -1,0 +1,19 @@
+.about-me {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-image-container {
+    margin: 20px auto; /* Center the image container */
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Maintain the same height and width for circular shape */
+    overflow: hidden; /* Ensure the image fits within the circle */
+    border-radius: 50%; /* Make the container circular */
+    border: 3px solid #ff6347; /* Optional: add a border color */
+  }
+  
+  .profile-image {
+    width: 100%; /* Full width to fit container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
